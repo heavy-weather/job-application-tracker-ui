@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="d-flex w-100 h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="job-application-tracker-api-url" th:content="${jobApplicationTrackerApiUrl}" />
+    <meta http-equiv="Content-Security-Policy" content="frame-src 'self' blob:" />
+
+    <!--    <meta name="description" content="A brief description of the page for SEO.">-->
+    <title>Job Application Tracker</title>
+
+    <!-- Favicon -->
+<!--    <link rel="icon" href="favicon.ico" type="image/x-icon">-->
+
+    <!-- Open Graph Meta Tags for better social media sharing -->
+<!--    <meta property="og:title" content="Your Page Title">-->
+<!--    <meta property="og:description" content="A brief description of the page for SEO.">-->
+<!--    <meta property="og:image" content="path_to_image.jpg">-->
+<!--    <meta property="og:url" content="https://yourwebsite.com">-->
+
+    <!-- Twitter Card Meta Tags -->
+<!--    <meta name="twitter:card" content="summary_large_image">-->
+<!--    <meta name="twitter:title" content="Your Page Title">-->
+<!--    <meta name="twitter:description" content="A brief description of the page for SEO.">-->
+<!--    <meta name="twitter:image" content="path_to_image.jpg">-->
+</head>
+<body class="d-flex w-100 flex-grow-1">
+<div id="root" class="d-flex w-100 flex-grow-1"></div>
+<script th:src="@{/public/app.bundle.js}"></script>
+</body>
+</html>

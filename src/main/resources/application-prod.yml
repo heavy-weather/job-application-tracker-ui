@@ -1,0 +1,14 @@
+spring:
+  ssl:
+    bundle:
+      jks:
+        server:
+          key:
+            alias: "tomcat"
+          keystore:
+            location: ${KEYSTORE_LOCATION}
+            password: ${KEYSTORE_PASSWORD}
+            type: "PKCS12"
+server:
+  ssl:
+    bundle: "server"

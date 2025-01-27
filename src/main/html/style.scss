@@ -1,0 +1,35 @@
+@import "bootstrap/scss/bootstrap";
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.full-scroll {
+  overflow-y: scroll;
+}
+
+.table-fixed th,
+.table-fixed th td {
+  position: sticky;
+  top: 0;
+}
+
+.max-h-75 {
+  max-height: 75% !important;
+}
+
+.min-h-25 {
+  min-height: 25% !important;
+}
+
+.max-h-content {
+  max-height: fit-content !important;
+}
+
+.w-90vw {
+  width: 90vw !important;
+}
+
+.h-90vh {
+  height: 90vh !important;
+}
